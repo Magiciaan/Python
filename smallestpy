@@ -1,0 +1,12 @@
+j = 0
+b = 0
+for i in range(5):
+    a = input('enter a no.')
+    while(b!=5):
+        j = int(a)
+        b = b + 1
+        if(j<=int(a)):
+            m = j
+        else:
+            m = a
+print (m)

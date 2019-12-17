@@ -1,18 +1,15 @@
-#palindrome
-def a(b):
-    c=0
-    d=len(b)-1
-    while d>= c:
-        if(b[c]!=b[d]):
-            return False
-        c = c + 1
-        d = d -1
-    return True
-g = input('enter anything')
-h = a(g)
-if h == True:
-    print()   #used to skip 1 line
-    print('Palindrome')
-else:
-    print()
-    print('Not Palindrome')
+
+
+def f(a):
+    d=''
+    length=len(a)
+    while length>0:
+        #print(a[length-1])
+        d = d + a[length - 1]
+        length=length-1
+    print (d)
+
+print('start')
+c='shyam'
+f(c)
+print('over')
